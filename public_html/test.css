@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2021, 4:22:17 PM
+    Author     : HP2540
+*/
+
+body{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+
+.form-control {
+		border-color: #eee;
+        min-height: 41px;
+		box-shadow: none !important;
+	}
+    .form-control:focus {
+		border-color: #5cd3b4;
+	}
+    .form-control, .btn {        
+        border-radius: 3px;
+    }
+	.signup-form {
+		width: 500px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+    .signup-form h2 {
+		color: #333;
+        margin: 0 0 30px 0;
+		display: inline-block;
+		padding: 0 30px 10px 0;
+		border-bottom: 3px solid #5cd3b4;
+    }
+    .signup-form form {
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.signup-form .form-group {
+		margin-bottom: 20px;
+	}
+	.signup-form label {
+		font-weight: normal;
+		font-size: 13px;
+	}
+    .signup-form input[type="checkbox"] {
+		margin-top: 2px;
+	}
+    .signup-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background: #5cd3b4;
+		border: none;
+		margin-top: 20px;
+		min-width: 140px;
+    }
+	.signup-form .btn:hover, .signup-form .btn:focus {
+		background: #41cba9;
+        outline: none !important;
+	}
+    .signup-form a {
+		color:black;
+		text-decoration: underline;
+	}
+	.signup-form a:hover {
+		text-decoration: none;
+	}
+    .signup-form form a {
+		color: #5cd3b4;
+		text-decoration: none;
+	}	
+	.signup-form form a:hover {
+                
+		text-decoration: underline;
+	}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.h1
+{
+    color : #000000;
+    text-align : center;
+    font-family: "SIMPSON";
+}
+
+.form
+{
+    align:"center";
+}
+
+.banner-content{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.type1{
+    display:inline-block;
+    margin: 0px auto;
+}
+
+a{
+ text-decoration: none;
+ background-color: transparent;
+ color:#ededed;
+}
+
+.header{background-color:#000;
+ color:#fff;
+ border-color: #080808;
+ min-height: 50px;
+ border: 1px solid transparent;}
+
+.inner-header{width:90%;
+ margin:auto;}
+
+.logo{
+ float: left;
+ height: 50px;
+ padding: 15px;
+ font-size: 20px;
+ font-weight: bold;}
+
+.header-link{float:right;
+ font-size:14px;
+ height: 50px;
+ padding: 15px 15px;
+ font-size:16px;
+ font-weight: bold;}
+
+.content{min-height: 600px;}
+
+.banner-image{padding-bottom: 50px;
+ margin-bottom: 20px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url(img/intro-bg_1.jpg) no-repeat center;
+ background-size: cover;}
+
+.inner-banner-image{padding-top: 12%;
+ width:50%;
+ margin:auto;}
+
+.banner-content{ position: relative; background: center;
+ padding-top: 6%;
+ padding-bottom: 6%;
+ overflow:hidden;
+ margin-bottom: 12%;
+ background-color: rgba(0, 0, 0, 0.7);
+ max-width: 660px;
+}
+
+.button{ color: #fff;
+ background-color: #c9302c;
+ border-color: #ac2925;
+ box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+ padding: 10px 16px;
+ font-size: 18px;
+ border-radius: 16px;}
+
+.container{width:90%;
+ margin:auto;
+ overflow:hidden;}
+
+.items{width:30%;
+ display: block;
+ padding: 4px;
+ margin-bottom: 20px;
+ line-height: 1.42857143;
+ background-color: #fff;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ float:left;
+ margin-left:1%;}
+
+.thumbnail{display: block;
+ max-width: 100%;
+ height: auto;
+}
+
+.caption{ color:#000;font-family:roboto; 
+ padding:0px 10px 10px;
+ font-weight: bold;
+ text-align: center;
+}
+
+footer{background-color: #000;
+ color:#fff;
+ font-size:14px;}
+
